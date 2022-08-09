@@ -3,6 +3,7 @@ Console.WriteLine("Введите первое число");
 double x = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Введите второе число");
 double y = Convert.ToDouble(Console.ReadLine());
+if(x==y) {Console.WriteLine("Числа равны");};
 if(x>y) 
 {Console.WriteLine("Первое число больше второго, максимальное число = "+x);}
 else
